@@ -1,0 +1,286 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+#home .black
+{
+	background-color: #000000;
+	color: #fff;
+	width: 100%;
+	height: 50px;
+	padding: 12px;
+}
+#home
+{
+	background-image: url("Images/pexels-photo-1294943.jpeg");
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100vh;
+}
+.navbar
+{
+	padding-top: 50px!important;
+}
+
+.navbar ul li a
+{
+	color: #000000;
+	text-align: center;
+	font-family:allura;
+	font-weight: 400;
+	
+}
+.navbar-brand 
+{
+	
+    font-family: 'Lobster', cursive;
+	font-size: 35px!important;
+	color: #000000;
+	text-decoration: none;
+	
+}
+.navbar-brand:hover
+{
+	color: #000000;
+}
+.text-right
+{
+	font-family: allura;
+}
+.content
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.content h6
+{
+	font-size: 40px;
+}
+.content h1
+{
+	font-size: 100px;
+}
+.content .btn
+{
+	background-color: transparent;
+	border: 1px solid #000000;
+	width: 150px;
+	height: 40px;
+	color: #000000;
+}
+.content .btn:hover
+{
+	background-color: #00000;
+}
+#two .col-sm-6 img
+{
+	width: 100%;
+	height: 80vh;
+}
+#two .col-sm-6 h1
+{
+	padding-top: 150px;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+#two .col-sm-6 h3,p,h5
+{
+	text-align: center;
+}
+#two .col-sm-6 .btn
+{
+	background-color: #fff;
+	color: #000000;
+}
+#dairy .farm
+{
+	background-image: url("Images/pexels-photo-1343504.jpeg");
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.farm .con h5
+{
+	color: #fff;
+	font-size: 50px;
+	padding-top: 18%;
+	font-family: 'Lobster', cursive;
+}
+.farm  .con h1
+{
+	font-size: 100px;
+	color: #fff;
+	letter-spacing: 15px;
+}
+.farm .btn
+{
+	background-color: transparent;
+	width: 100px;
+}
+#place .col-sm-6 h1
+{
+	padding-top: 150px;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+#place .col-sm-6 h3,p,h5
+{
+	text-align: center;
+	
+}
+#place .col-sm-6 .btn
+{
+	background-color: #fff;
+	color: #000000;
+}
+#place .col-sm-6 img
+{
+	width: 100%;
+	height: 80vh;
+}
+#Events .farm1
+{
+	background-image:url("Images/pexels-photo-1200035.jpeg");
+	width: 100%;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
+.farm1  h5
+{
+	color: #fff;
+	font-size: 50px;
+	padding-top: 18%;
+	font-family: 'Lobster', cursive;
+}
+.farm1 h1
+{
+	font-size: 100px;
+	color: #fff;
+	letter-spacing: 15px;
+	
+}
+.farm1 .btn
+{
+	background-color: transparent;
+	width: 100px;
+}
+#gallery
+{
+	padding-top: 105px;
+	padding-bottom: 105px;
+}
+#gallery .col-sm-4 img
+{
+	width: 100%;
+	height: 250px;
+	transition: 0.5s;
+}
+#gallery .col-sm-4 img:hover
+{
+	transform: translatey(-10px);
+}
+#footer
+{
+	background-color: #000000;
+	width: 100%;
+	height: 250px;
+}
+#footer h6
+{
+	color: #fff;
+}
+#footer p
+{
+	color: #fff;
+	text-align: left;
+}
+@media only screen and (max-width:600px)
+{
+	#two .col-sm-6 img
+{
+	width: 100%;
+	height: 70vh;
+}
+	#two .col-sm-6
+	{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	#two .col-sm-6 h1
+{
+	padding-top: 50px;
+	text-align: center;
+}
+#two .col-sm-6 h3,p,h5
+{
+	text-align: center;
+}
+	.farm .con h5
+{
+	color: #fff;
+	font-size: 50px;
+	padding-top: 40%;
+}
+.farm  .con h1
+{
+	font-size: 100px;
+	color: #fff;
+	letter-spacing: 15px;
+}
+	#place .col-sm-6 h1
+{
+	padding-top: 50px;
+	text-align: center;
+}
+	#place .col-sm-6
+	{
+		padding-bottom: 60px;
+	}
+#place .col-sm-6 h3,p,h5
+{
+	text-align: center;
+}
+#place .col-sm-6 .btn
+{
+	background-color: #fff;
+	color: #000000;
+}
+	.farm1  h5
+{
+	color: #fff;
+	font-size: 50px;
+	padding-top:30%;
+}
+	.navbar ul li a
+{
+	color: #fff;
+	text-align: center;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-weight: 400;
+	
+}.text-right
+{
+	font-family: allura;
+	color: #fff;
+	text-align: center!important;
+}
+	#footer
+	{
+		width: 100%;
+		height: 422px;
+	}
+	#gallery .col-sm-4 img
+{
+	width: 100%;
+	height: 250px;
+	transition: 0.5s;
+	padding: 10px 0px;
+}
+}
+
